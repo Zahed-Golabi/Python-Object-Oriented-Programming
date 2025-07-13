@@ -5,10 +5,23 @@ class Employee:
         self.name = name   # object variable
         self.age = age     # object varialbe
 
+    def hello():             # class method           
+        print("Hello World")
+
+    def work(self):
+        print("Working")
+
+    def introduce(self):
+        return f"Hi, I am {self.name}"
+
+
 
 
 # create object
 employee1 = Employee("Zanko", 32)
+print(employee1.introduce())
+
+Employee.hello()
 
 
 # create object
