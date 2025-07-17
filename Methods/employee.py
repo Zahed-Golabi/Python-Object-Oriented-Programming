@@ -28,8 +28,15 @@ class Employee:
             raise ValueError("ful_info must be string!")
         
 
+    @staticmethod
+    def is_adult(age):
+        return age >= 18
+        
+
 emp1 = Employee("Zanko", "Golabi", 32)
 emp2 = Employee("Mardin", "Vafa", 13)
+print(emp1.is_adult(emp1.age))
+print(emp2.is_adult(emp2.age))
 
 print("Before...")
 print(emp1.full_name(), f" {emp1.salary}")
