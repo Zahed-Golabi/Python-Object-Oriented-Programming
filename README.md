@@ -32,8 +32,8 @@ This repository is a complete guide to **Object-Oriented Programming (OOP)** con
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Zahed-Golabi/Python-Object-Oriented-Programming.git
+   cd Python-Object-Oriented-Programming
 
 2. Navigate into any concept directory to explore the examples:
 ```bash
