@@ -19,7 +19,7 @@ def check_answer(answer):
         return (False, "Choose bigger number!")
     
     else:
-        return (None, "Please inser a valid number")
+        return (None, "Please insert a valid number")
     
 
 
